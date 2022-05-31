@@ -350,6 +350,7 @@ template {
 }
 
 .header {
+  padding: 0 calc( 50% - 1110px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -357,9 +358,6 @@ template {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -381,6 +379,7 @@ template {
 
 .logo {
   margin: 0;
+  margin-left: 271px;
   padding: 0;
   color: #37447E;
   font-family: 'Roboto', sans-serif;
@@ -398,6 +397,32 @@ template {
   text-align: center;
   color: #FFFFFF;
   background-color: #111B47;
+  margin-left: auto;
+}
+
+.herow {
+  text-align: left;
+  padding-top: 253px;
+  position: relative;
+}
+
+.herow-banner {
+  position: absolute;
+  top: 0px;
+  left: 417px;
+  -webkit-transform: translate(30px 40px);
+          transform: translate(30px 40px);
+  overflow: hidden;
+}
+
+.herow-title {
+  max-width: 539px;
+}
+
+.herow-text {
+  margin: 0;
+  padding: 0;
+  max-width: 539px;
 }
 
 body {
@@ -414,7 +439,11 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   margin: 0;
   padding: 0;
 }
