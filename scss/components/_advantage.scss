@@ -1,0 +1,44 @@
+.advantage-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.advantage-li {
+  display: flex;
+  flex-direction: row;
+}
+
+.advantage-banner{
+  padding-top: 122px;
+  padding-bottom: 130px;
+  width: 50%;
+
+}
+
+.advantage-content{
+  padding-top: 172px;
+  padding-bottom: 169px;
+  width: 50%;
+}
+
+.advantage-title{
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.33;
+  color: $main-title-color;
+  margin-bottom: 16px;
+}
+
+.advantage-text{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.62;
+  color: $primery-text-color;
+
+}
+
+.advantage-btn{
+  margin-top: 40px;
+}

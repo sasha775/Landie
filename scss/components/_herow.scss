@@ -1,27 +1,52 @@
-.herow {
-text-align: left;
-padding-top: 253px;
-position: relative;
-}
-
-.herow-images{
-
-}
-
 .herow-banner{
+  position: relative;
+}
+
+.herow-container {
+display: flex;
+text-align: left;
+
+}
+
+.herow-content{
+  width: 50%;
+}
+
+.herow-images {
+  display: inline-block;
+  z-index: -1;
   position: absolute;
-  top: 0px;
-  left: 417px;
-  transform: translate(30px 40px);
-  overflow: hidden;
+  top: 0;
+  left: 0;
+  transform: translate(119px, -1073px);
 }
 
 .herow-title{
+  
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.32;
+  color: $main-title-color;
+
   max-width: 539px;
 }
 
 .herow-text{
-  margin:0;
-  padding: 0;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.44;
+  color: $primery-text-color;
+
   max-width: 539px;
+  margin:0;
+  padding-top: 20px;
+  padding-bottom: 69px;
+
+}
+
+.herow-btn{
+  margin-right: 30px;
 }

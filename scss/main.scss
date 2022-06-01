@@ -1,10 +1,16 @@
-@import './base/base';
+@import './variables/variables';
 @import './components/header';
 @import './components/herow';
-
+@import './components/after-herow';
+@import './components/advantage';
 
 body {
   font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+p {
+  margin: 0;
 }
 
 ul {
@@ -21,7 +27,51 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
   margin: 0;
   padding: 0;
+} 
+
+.primery-button {
+  box-sizing: border-box;
+  font-family: inherit;
+  outline: 2px solid $primery-btn-color;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.62;
+  background-color: $primery-btn-color;
+  color: $primery-btn-text-color;
+
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 4px;
+  min-width: 160px;
+  padding: 4px 0;
+  text-align: center;
+
+
+
+
+  margin-left: auto;
+}
+
+.secondary-button {
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.62;
+  outline: 2px solid #091133;
+  border-radius: 2px;
+  color: $second-btn-text-color;
+
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 4px;
+  min-width: 160px;
+  padding: 4px 0;
+  text-align: center;
 }

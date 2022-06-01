@@ -6,45 +6,141 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lindle</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css"
+    integrity="sha512-+qB2aif4IuUw+c0tH5w7iYmr7v6AJ+FLUqr2wfr3Ms9jP6IGKSZhO0h4B9uEpBh1TuPt6Bo8HLWTlAFX1vccZQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
-  <div class="container">
-    <section class="header">
-      <ul class="header-nav">
-        <li class="header-nav-items"><a href="" class="header-nav-link">Home</a></li>
-        <li class="header-nav-items"><a href="" class="header-nav-link">About</a></li>
-        <li class="header-nav-items"><a href="" class="header-nav-link">Contact</a></li>
-      </ul>
 
-      <p class="logo">Landie</p>
+  <section class="header">
 
-      <a href="" class="button">Buy Now</a>
-    </section>
-  </div>
+    <div class="container">
+      <div class="header-wrapp">
+        <ul class="header-nav">
+          <li class="header-nav-items"><a href="" class="header-nav-link">Home</a></li>
+          <li class="header-nav-items"><a href="" class="header-nav-link">About</a></li>
+          <li class="header-nav-items"><a href="" class="header-nav-link">Contact</a></li>
+        </ul>
 
-  <!-- <----------------herow------------->
-  <section class="container">
-    <div class="herow">
-      <div class="herow-content">
-        <h1 class="herow-title">Introduce Your Product Quickly & Effectively</h1>
-        <p class="herow-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
-          dolor. Aenean massa. Cum sociis
-          natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-          mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+        <a ref="./index.html" class="logo">Landie</a>
 
-        <div class="herow-button">
-          <a href="" class="button">Purchase UI Kit</a>
-          <a href="" class="button">Learn More</a>
-        </div>
+        <a href="./index.html" class="primery-button">Buy Now</a>
       </div>
-      <div class="herow-images"><img src="./images/designer_1.png" alt="banner" class="herow-banner"></div>
-
-
     </div>
   </section>
+
+
+  <!-- <----------------herow------------->
+  <main>
+
+
+    <section class="herow">
+      <div class="container herow-container">
+        <div class="herow-content">
+          <h1 class="herow-title">Introduce Your Product Quickly & Effectively</h1>
+          <p class="herow-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+            dolor. Aenean massa. Cum sociis
+            natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+            mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+          </p>
+
+          <div class="herow-button">
+            <a href="" class="primery-button herow-btn">Purchase UI Kit</a>
+            <a href="" class="secondary-button">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="herow-banner">
+        <img class="herow-images" src="./images/herow.svg" width="1490" height="1161">
+      </div>
+    </section>
+
+
+    <!-- <----------------after-herow------------->
+    <section class="container">
+      <div class="after-herow">
+        <div class="after-herow-content">
+          <div class="after-herow-content-wrapp">
+            <h2 class="after-herow-title">Light, Fast & Powerful</h2>
+            <p class="after-herow-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
+              eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+              <br /><br />
+              mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+            </p>
+          </div>
+
+          <ul class="after-herow-list">
+            <li class="after-herow-li">
+              <img src="./images/Icon-after-title.png" alt="Icon-after" class="herow-list-icon">
+              <p class="after-herow-list-title">Title Goes Here</p>
+              <p class="after-herow-list-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                commodo ligula eget dolor.</p>
+            </li>
+            <li class="after-herow-li">
+              <img src="./images/Icon-after-title.png" alt="Icon-after" class="herow-list-icon">
+              <p class="after-herow-list-title">Title Goes Here</p>
+              <p class="after-herow-list-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                commodo ligula eget dolor.</p>
+            </li>
+          </ul>
+
+        </div>
+        <div class="after-herow-banner">
+          <img src="./images/mobile_login_ikmv.png" alt="" class="after-herow-images" width="540">
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- <----------------advantage------------->
+    <section class="advantage">
+
+      <div class="container">
+        <ul class="advantage-list">
+          <li class="advantage-li">
+            <div class="advantage-banner"><img src="./images/happy_news1.svg" alt="advantage"></div>
+            <div class="advantage-content">
+              <h2 class="advantage-title">Light, Fast & Powerful</h2>
+              <p class="advantage-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
+                eget dolor. Aenean massa. Cum sociis
+                natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+                enim.</p>
+            </div>
+          </li>
+          <li class="advantage-li">
+            <div class="advantage-banner"><img src="./images/social_influencer.svg" alt="advantage"></div>
+            <div class="advantage-content">
+              <h2 class="advantage-title">Light, Fast & Powerful</h2>
+              <p class="advantage-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
+                eget dolor. Aenean massa. Cum sociis
+                natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+                enim.</p>
+            </div>
+          </li>
+          <li class="advantage-li">
+            <div class="advantage-banner"><img src="./images/undraw_mention.svg" alt="advantage" width="445"
+                height="312">
+            </div>
+            <div class="advantage-content">
+              <h2 class="advantage-title">Light, Fast & Powerful</h2>
+              <p class="advantage-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
+                eget dolor. Aenean massa. Cum sociis
+                natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+                enim.</p>
+              <a href="" class="primery-button advantage-btn">Purchase Now</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
 
 </body>
 
