@@ -1,57 +1,57 @@
-.after-herow{
+.after-herow {
   display: flex;
   flex-direction: row;
 }
 
-.after-herow-content{
+.after-herow-content {
   width: 50%;
   padding-top: 160px;
   padding-bottom: 160px;
 }
 
-.after-herow-banner{
+.after-herow-banner {
   width: 50%;
   padding-top: 110px;
   padding-bottom: 108px;
 }
 
-.after-herow-list{
+.after-herow-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between
+  justify-content: space-between;
 }
 
-.after-herow-title{
-  font-family: 'Roboto', sans-serif;
+.after-herow-title {
+  font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-weight: 500;
   line-height: 1.33;
   color: $main-title-color;
-  
+
   max-width: 540px;
   margin-bottom: 16px;
 }
 
-.after-herow-text{
-  font-family: 'Roboto', sans-serif;
+.after-herow-text {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.62;
   color: $primery-text-color;
-    
+
   max-width: 540px;
   margin-bottom: 80px;
 }
-.after-herow-li{
+.after-herow-li {
   max-width: 255px;
 }
 
-.herow-list-icon{
+.herow-list-icon {
   margin-bottom: 14px;
 }
 
-.after-herow-list-title{
-  font-family: 'Roboto', sans-serif;
+.after-herow-list-title {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.62;
@@ -59,10 +59,10 @@
   margin-bottom: 6px;
 }
 
-.after-herow-list-text{
-  font-family: 'Roboto', sans-serif;
+.after-herow-list-text {
+  font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 1.5;
-  color: #5D6970;
+  color: #5d6970;
 }

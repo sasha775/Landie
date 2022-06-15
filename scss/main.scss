@@ -1,11 +1,13 @@
-@import './variables/variables';
-@import './components/header';
-@import './components/herow';
-@import './components/after-herow';
-@import './components/advantage';
+@import "./variables/variables";
+@import "./components/header";
+@import "./components/herow";
+@import "./components/after-herow";
+@import "./components/advantage";
+@import "./components/prising";
+@import "./components/footer";
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   overflow-x: hidden;
 }
 
@@ -31,7 +33,7 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
-} 
+}
 
 .primery-button {
   box-sizing: border-box;
@@ -50,9 +52,6 @@ h6 {
   min-width: 160px;
   padding: 4px 0;
   text-align: center;
-
-
-
 
   margin-left: auto;
 }

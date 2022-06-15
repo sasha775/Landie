@@ -1,0 +1,64 @@
+.prising-container {
+  height: 798px;
+  background-image: url(../images/Rectangle.svg);
+}
+
+.prising-wrapp {
+  padding-top: 237px;
+  padding-bottom: 172px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.pricing-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.33;
+  color: #091133;
+  margin-bottom: 16px;
+  min-width: 600px;
+  display: inline-block;
+}
+
+.pricing-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.62;
+  color: #6f7cb2;
+
+  margin-bottom: 36px;
+  max-width: 600px;
+  display: inline-block;
+}
+
+.price {
+}
+
+.price-worth {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.32;
+  color: #222f65;
+}
+
+.price-discrip {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.62;
+  color: #37447e;
+  margin-bottom: 60px;
+}
+
+.subscription-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  color: #5d6970;
+  margin-bottom: 9px;
+}

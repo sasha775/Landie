@@ -1,0 +1,39 @@
+.footer {
+  background-color: #e7ecff;
+}
+
+.footer-nav {
+  background-color: #e7ecff;
+}
+
+.footer-nav-container {
+  display: flex;
+  align-items: center;
+  height: 140px;
+  border-bottom: 1px solid #cdd1d4;
+}
+
+.logo-footer {
+  margin: 0;
+  padding: 0;
+  margin-left: 382px;
+}
+
+.footer-navigation {
+  display: flex;
+  height: 76px;
+}
+.social {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.social-items {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.footer-nav {
+  align-items: center;
+}

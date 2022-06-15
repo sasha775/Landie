@@ -1,29 +1,29 @@
-.herow-banner{
-  position: relative;
+.herow {
+  background-image: url("../images/designer_1.svg");
+  background-repeat: no-repeat;
+  background-position: 326px;
 }
 
 .herow-container {
-display: flex;
-text-align: left;
-
+  display: flex;
+  text-align: left;
 }
 
-.herow-content{
+.herow-content {
   width: 50%;
 }
 
-.herow-images {
-  display: inline-block;
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: translate(119px, -1073px);
-}
+// .herow-images {
+//   display: inline-block;
+//   z-index: -1;
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   transform: translate(119px, -1073px);
+// }
 
-.herow-title{
-  
-  font-family: 'Roboto', sans-serif;
+.herow-title {
+  font-family: "Roboto", sans-serif;
   font-size: 50px;
   font-weight: 500;
   line-height: 1.32;
@@ -32,21 +32,19 @@ text-align: left;
   max-width: 539px;
 }
 
-.herow-text{
-
-  font-family: 'Roboto', sans-serif;
+.herow-text {
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.44;
   color: $primery-text-color;
 
   max-width: 539px;
-  margin:0;
+  margin: 0;
   padding-top: 20px;
   padding-bottom: 69px;
-
 }
 
-.herow-btn{
+.herow-btn {
   margin-right: 30px;
 }
